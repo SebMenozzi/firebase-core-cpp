@@ -1,0 +1,37 @@
+{
+  "client": [
+    {
+      "services": {
+        "appinvite_service": {
+          "status": 1
+        }, 
+        "analytics_service": {
+          "status": 0
+        }
+      }, 
+      "oauth_client": [
+        {
+          "client_id": "82229704608-1ihr5okoa9lf88j5ggscq0ssa19pd0o5.apps.googleusercontent.com"
+        }
+      ], 
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJ3Yub0jXrsXW36GZJzWdX93N77LIMh_Y"
+        }
+      ], 
+      "client_info": {
+        "mobilesdk_app_id": "1:82229704608:ios:09d6792e128fcf304716c5", 
+        "android_client_info": {
+          "package_name": "co.discoapp"
+        }
+      }
+    }
+  ], 
+  "configuration_version": "1", 
+  "project_info": {
+    "storage_bucket": "discoapp-534b2.appspot.com", 
+    "project_id": "discoapp-534b2", 
+    "firebase_url": "https://discoapp-534b2-default-rtdb.europe-west1.firebasedatabase.app", 
+    "project_number": "82229704608"
+  }
+}
