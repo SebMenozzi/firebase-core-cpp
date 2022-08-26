@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Install protos
-protogen_repo_url="git@github.com:SebMenozzi/protogen.git"
+protogen_repo_url="git@github.com:SebMenozzi/disco-proto.git"
 
 if [ "$#" -eq 1 ]; then
     git clone -b $1 $protogen_repo_url

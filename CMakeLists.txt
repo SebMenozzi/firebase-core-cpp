@@ -38,5 +38,20 @@ include_directories(src)
 
 add_executable(core)
 target_sources(core PRIVATE "src/main.cc" ${SRC_PROTO})
+
 set(firebase_libs firebase_auth firebase_app)
-target_link_libraries(core grpc++ "${firebase_libs}" pthread)
+
+target_link_libraries(core 
+  PRIVATE
+  grpc++ 
+)
+
+
+target_link_libraries(core
+  PRIVATE
+  "${firebase_libs}" 
+  pthread
+  "-framework CoreFoundation"
+  "-framework Foundation"
+  "-framework Security"
+)
